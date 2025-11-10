@@ -24,6 +24,7 @@ Always install them before running the notebook or any Python files.
 
 We follow a simple Developer / Gatekeeper workflow.
 
+
 Developer
 Create or update code locally.
 Commit your changes:
