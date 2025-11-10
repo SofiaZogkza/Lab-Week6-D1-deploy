@@ -1,46 +1,38 @@
-⚙️ Project Setup
+# 🧪 Lab Week 6 – Day 1 -Deploy
 
-Before starting, create and activate a virtual environment:
+This repository contains my work for **Lab Week 6: Deploy**.
+
+---
+
+## ⚙️ Project Setup
+
+Create and activate a virtual environment, then install dependencies:
+
 ```
 python3 -m venv venvSofia
-venvSofia\Scripts\activate
-```
+source venvSofia/bin/activate      # macOS/Linux
+# or venvSofia\Scripts\activate    # Windows
 
-Then install all required dependencies:
-
-```
 pip install -r requirements.txt
 ```
 
-📁 Requirements File
+### 🔄 Git Workflow
 
-All necessary packages (like `numpy` and `pandas`) are listed in `requirements.txt`.
-Always install them before running the notebook or any Python files.
+We follow a Developer / Gatekeeper collaboration model.
 
-🔄 Git Workflow
+### 👩‍💻 Developer
 
-We follow a simple Developer / Gatekeeper workflow.
+1. Make changes locally.
 
-
-Developer
-Create or update code locally.
-Commit your changes:
+2. Commit and push to a new branch:
 ```
 git add .
 git commit -m "Describe your changes"
+git push -u origin <branch-name>
 ```
+3. Open a Pull Request (PR) on GitHub.
 
-Push to a new branch:
-```
-git push -u origin your-branch-name
-```
+### 🧩 Gatekeeper
 
-Create a Pull Request (PR) on GitHub.
-
-Gatekeeper
-
-1. Review the PR carefully.
-
-2. Approve and merge the branch into main.
-
-3. Pull the latest changes locally and test that everything works.
+1. Review and approve the PR.
+2. Merge into main and pull the latest updates locally.
