@@ -2,11 +2,8 @@
 
 Before starting, create and activate a virtual environment:
 ```
-python -m venv venvSofia
-# Activate it
-venvSofia\Scripts\activate   # on Windows
-# OR
-source venvSofia/bin/activate  # on macOS / Linux
+python3 -m venv venvSofia
+venvSofia\Scripts\activate
 ```
 
 Then install all required dependencies:
